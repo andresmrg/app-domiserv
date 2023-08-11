@@ -59,8 +59,8 @@ body, html{
 	font-family: 'RobotoCondensedLight'
 }
 .breadcrumb-tabs{
-	margin-bottom: 15px; 
-	background-color: transparent; 
+	margin-bottom: 15px;
+	background-color: transparent;
 	border-bottom: 2px solid #F7F7F7;
 	padding: 0;
 }
@@ -81,7 +81,7 @@ header{
 	width: 100%;
 	display: flex;
 	font-size: 20px;
-	
+
 }
 #btn-menu{
 	display: none;
@@ -99,7 +99,7 @@ header .menu{
 	width: 80%;
 	margin: 10px auto;
 	border-radius: 20px;
-	
+
 }
 
 header .menu ul{
@@ -116,11 +116,11 @@ header .menu ul li{
 
 header .menu ul li:hover{
 	background: rgba(0,0,0,.85);
-	
+
 }
 header .menu ul li a:hover {
 	color: #E85A1A;
-	
+
 }
 header .menu ul li a{
 	color: #fff;
@@ -130,7 +130,7 @@ header .menu ul li a{
 }
 header .menu ul li:hover .children{
 	display: block;
-	
+
 }
 header .menu ul li .children{
 	display: none;
@@ -138,7 +138,7 @@ header .menu ul li .children{
 	position: absolute;
 	width: 100%;
 	z-index: 102;
-	
+
 }
 header .menu ul li .children1{
 	display: none;
@@ -146,24 +146,24 @@ header .menu ul li .children1{
 	position: absolute;
 	width: 100%;
 	z-index: 102;
-	
+
 }
 header .menu ul li .children li{
-	
+
 	display:inline-block;
 	min-width: 100%;
-	
+
 }
 header .menu ul li .children li ul{
-	
+
 	display: none;
 	position: absolute;
 	min-width: 100%;
-	
+
 }
 header .menu ul li .children li:hover ul{
 	display: block;
-	
+
 }
 header .menu ul li .children li ul{
 	right: -100%;
@@ -209,7 +209,7 @@ header .menu ul li .children li ul{
 
 /*estilo para consulta de guias clientes*/
 .envios{
-	
+
 	top: 80%;
 	width: 39%;
 	height: 125px;
@@ -222,8 +222,8 @@ header .menu ul li .children li ul{
 	border: 3px #141313;
 	border-radius: 15px;
 	background: rgba(0,0,0,.75);
-	
-	
+
+
 }
 .denvios{
 	z-index: 99;
@@ -239,10 +239,10 @@ header .menu ul li .children li ul{
 	color: #fff;
 	width: 100%;
 	font-size: 30px;
-	
+
 }
 #idsoporguia{
-	
+
 		top: 10%;
 		width: 80%;
 		height: 84px;
@@ -256,10 +256,10 @@ header .menu ul li .children li ul{
 		border-radius: 15px 15px 0px 0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia1{
-	
+
 		top: calc(10% + 84px);
 		width: 80%;
 		height: 50%;
@@ -273,10 +273,10 @@ header .menu ul li .children li ul{
 		border-radius:  0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia2{
-	
+
 		top: 55.3%;
 		width: 80%;
 		height: 70px;
@@ -290,18 +290,18 @@ header .menu ul li .children li ul{
 		border-radius: 0px 0px 15px 15px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 
 
 
 @media (max-width:1020px){
-	
+
 	header{
 		height: 80px;/*si comienza a sacar errores se quitra esto*/
-		
+
 	}
-	
+
 	 #btn-menu{
 		height: 70px;/*si comienza a sacar errores se quitra esto*/
 		display:none;
@@ -314,8 +314,8 @@ header .menu ul li .children li ul{
 		font-weight: bold;
 		text-decoration: none;
 		z-index: 102;
-		
-		
+
+
 	}
 	#menuresponsive{
 		display: block;
@@ -329,12 +329,12 @@ header .menu ul li .children li ul{
 		font-weight: bold;
 		background: rgba(0,0,0,.75);
 		border-radius: 15px;
-		
+
 	}
 	header span{
 		position:relative;
 		display: flex;
-		
+
 		width: 50px;
 		float: right;
 	}
@@ -347,7 +347,7 @@ header .menu ul li .children li ul{
 		height: 800%;
 		transform:translateX(-100%);
 		transition: all 0.9s;
-		
+
 		/*width: 80%;
 		height: calc(100% - 80px);
 		position: fixed;
@@ -355,8 +355,8 @@ header .menu ul li .children li ul{
 		margin: 0;*/
 		overflow:scroll;
 	}
-	
-	
+
+
 	header .menu ul li a{
 		background: rgba(0,0,0,0);
 	}
@@ -365,9 +365,9 @@ header .menu ul li .children li ul{
 		display: block;
 		background: rgba(0,0,0,0);
 		height: auto;
-		
+
 	}
-	
+
 	#btn-menu:checked ~ .menu{
 		transform: translate(0%);
 	}
@@ -380,14 +380,14 @@ header .menu ul li .children li ul{
 		background:rgba(106,136,235,0.20);
 	}
 	header .menu ul li .children li{
-		
+
 		/*background: #E90B0F;*/
 	}
 	header .menu ul li .children li{
 		padding: 10px 40px;
 		background: rgba(0,0,0,0);
 	}
-	
+
 	header .menu ul li:hover .children{
 		display: none;
 		/*position: static;*/
@@ -399,7 +399,7 @@ header .menu ul li .children li ul{
 	header .menu ul li .children li:hover .children1{
 	display: none;
 }
-	
+
 	/*estilo para graficas*/
 
 	.charthistorico{
@@ -407,11 +407,11 @@ header .menu ul li .children li ul{
 		height: 500px;
 	}
 
-	
+
 	/*estilo para consulta de guias clientes*/
-	
+
 	.envios{
-	
+
 	top: 80%;
 	left: 0;
 	width: 100%;
@@ -425,7 +425,7 @@ header .menu ul li .children li ul{
 	border-radius: 15px;
 	background: rgba(0,0,0,.75);
 	}
-	
+
 	.denvios{
 	z-index: 99;
 	float: left;
@@ -439,10 +439,10 @@ header .menu ul li .children li ul{
 	color: #fff;
 	width: 100%;
 	font-size: 30px;
-	
+
 	}
 	#idsoporguia{
-	
+
 		top: 10%;
 		width: 96%;
 		height: 84px;
@@ -456,10 +456,10 @@ header .menu ul li .children li ul{
 		border-radius: 15px 15px 0px 0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia1{
-	
+
 		top: calc(10% + 84px);
 		width: 96%;
 		height: 50%;
@@ -473,10 +473,10 @@ header .menu ul li .children li ul{
 		border-radius:  0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia2{
-	
+
 		top: 55.3%;
 		width: 96%;
 		height: 70px;
@@ -490,7 +490,7 @@ header .menu ul li .children li ul{
 		border-radius: 0px 0px 15px 15px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 }
 
@@ -502,44 +502,44 @@ header .menu ul li .children li ul{
 	position: relative;
 	margin: 0px;
 	overflow:hidden;
-	
+
 	z-index: 98;
 }
 .slider ul{
-	
+
 	display: flex;
 	height: 100%;
 	padding: 0;
 	width: 400%;
-	
+
 	animation: cambio 40s infinite alternate;
 	animation-timing-function: ease-in;
-	
-	
+
+
 }
 .slider li{
 	width: 100%;
-	
+
 	list-style: none;
-	
+
 }
 .slider img{
 	width: 100%;
 	height: 100%;
-	
+
 }
 @keyframes cambio{
-	
+
 	0%{margin-left: 0;}
 	20%{margin-left: 0;}
-	
-	
+
+
 	25%{margin-left: -100%;}
 	45%{margin-left: -100%;}
-	
+
 	50%{margin-left: -200%;}
 	70%{margin-left: -200%;}
-	
+
 	75%{margin-left: -300%;}
 	100%{margin-left: -300%;}
 }
@@ -675,7 +675,7 @@ header .menu ul li .children li ul{
 }
 .dashboard-sideBar-Menu > li > a > i.zmdi-caret-down{
 	line-height: 50px;
-	transition: all .3s ease-in-out; 
+	transition: all .3s ease-in-out;
 }
 .dashboard-sideBar-Menu > li > a{
 	padding: 0 15px;
@@ -1031,15 +1031,15 @@ header .menu ul li .children li ul{
 	#listasmodales{
 	  width: 80% !important;
 	}
-	
-	
+
+
 }
 
 /*======= MEDIA QUERIES*/
 @media (max-height: 850px){
-		
+
 	#idsoporguia{
-	
+
 		top: 14%;
 		width: 96%;
 		height: 84px;
@@ -1053,10 +1053,10 @@ header .menu ul li .children li ul{
 		border-radius: 15px 15px 0px 0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia1{
-	
+
 		top: calc(14% + 84px);
 		width: 96%;
 		height: 40%;
@@ -1070,10 +1070,10 @@ header .menu ul li .children li ul{
 		border-radius:  0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia2{
-	
+
 		top: 63.8%;
 		width: 96%;
 		height: 70px;
@@ -1087,14 +1087,14 @@ header .menu ul li .children li ul{
 		border-radius: 0px 0px 15px 15px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 }
 
 @media (max-height: 790px){
-		
+
 	#idsoporguia{
-	
+
 		top: 14%;
 		width: 96%;
 		height: 84px;
@@ -1108,10 +1108,10 @@ header .menu ul li .children li ul{
 		border-radius: 15px 15px 0px 0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia1{
-	
+
 		top: calc(14% + 84px);
 		width: 96%;
 		height: 35%;
@@ -1125,10 +1125,10 @@ header .menu ul li .children li ul{
 		border-radius:  0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia2{
-	
+
 		top: 61.8%;
 		width: 96%;
 		height: 70px;
@@ -1142,13 +1142,13 @@ header .menu ul li .children li ul{
 		border-radius: 0px 0px 15px 15px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 }
 @media (max-height: 650px){
-		
+
 	#idsoporguia{
-	
+
 		top: 14%;
 		width: 96%;
 		height: 84px;
@@ -1162,10 +1162,10 @@ header .menu ul li .children li ul{
 		border-radius: 15px 15px 0px 0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia1{
-	
+
 		top: calc(14% + 84px);
 		width: 96%;
 		height: 30%;
@@ -1179,10 +1179,10 @@ header .menu ul li .children li ul{
 		border-radius:  0px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 	#idsoporguia2{
-	
+
 		top: 58.2%;
 		width: 96%;
 		height: 70px;
@@ -1196,7 +1196,7 @@ header .menu ul li .children li ul{
 		border-radius: 0px 0px 15px 15px;
 		background: rgba(0,0,0,.75);
 
-	
+
 	}
 }
 @media (max-width: 767px){
@@ -1243,8 +1243,8 @@ header .menu ul li .children li ul{
 	#listasmodales{
 	  width: 94% !important;
 	}
-	
-	
+
+
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.hide-sidebar{

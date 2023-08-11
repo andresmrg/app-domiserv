@@ -10,12 +10,11 @@
 <script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/js/cssrefresh.js"></script>
 <script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/generalFunciones.js"></script>
 
-
-<?php 
+<?php
 	if(isset($_GET['views'])){
 		$ruta=explode("/", $_GET['views']);
 		//muestra modales de proyectos y tareas
-		
+
 		if($ruta[0] == "tareas"){
 ?>
 		<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/proyectoFunciones.js"></script>
@@ -51,14 +50,14 @@ if($ruta[0] == "guialist"){
 		<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/guiaFunciones.js"></script>
 		<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/guiaImagenFunciones.js"></script>
 		<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/js/instascan.min.js"></script>
-		
+
 <?php
 		}
-		
+
 if($ruta[0] == "codebarr"){
-?>		
-		
-		
+?>
+
+
 	<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/js/barcode.js"></script>
 	<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/codebarr.js"></script>
@@ -66,14 +65,14 @@ if($ruta[0] == "codebarr"){
 		}
 if($ruta[0] == "home"){
 
-?>	
-	
+?>
+
 	<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/core.js"></script>
 	<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/charts.js"></script>
 	<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/animated.js"></script>
 	<script type="text/javascript" src="<?php echo SERVERURL; ?>vistas/funcionesjs/graficaFunciones.js"></script>
 <?php
-								  
+
 		}
 	}
 ?>
