@@ -4,28 +4,27 @@
 		<p class="text-center text-muted text-uppercase">Inicia sesión con tu cuenta</p>
 		<div class="form-group label-floating">
 		  <label class="control-label" for="UserName">Usuario</label>
-		  <input required="" class="form-control" id="UserName" name="usuario" type="text" style="color: #FFF;">
+		  <input required="" class="form-control" id="UserName" name="usuario" type="text">
 		  <p class="help-block">Escribe tú nombre de usuario</p>
 		</div>
 		<div class="form-group label-floating">
 		  <label class="control-label" for="UserPass">Contraseña</label>
-		  <input required="" class="form-control" id="UserPass" name="clave" type="password" style="color: #FFF;">
+		  <input required="" class="form-control" id="UserPass" name="clave" type="password">
 		  <p class="help-block">Escribe tú contraseña</p>
 		</div>
 		<div class="form-group text-center">
-			<input type="submit" value="Iniciar sesión" class="btn btn-info" style="color: #FFF;">
+			<input type="submit" value="Iniciar sesión" class="btn btn-primary">
 		</div>
 		<div class="form-group text-center">
 			<a href="<?php echo SERVERURL; ?>"><i class="zmdi zmdi-home"></i>&nbsp;  INICIO</a>
 		</div>
 	</form>
-	
+
 </div>
 
 <?php
-	if(isset($_POST['usuario']) && isset($_POST['clave'])){
+	if (isset($_POST['usuario']) && isset($_POST['clave'])) {
 		require_once "./controladores/loginControlador.php";
-		
 		$login = new loginControlador();
 		echo $login->iniciar_sesion_controlador();
 	}
